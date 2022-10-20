@@ -12,4 +12,4 @@ En este taller, vamos a crear nuestra VPC en AWS: una Red Privada Virtual en la 
 
 In this workshop, we are going to build a VPC from scratch in AWS. While we are creating the VPC, we will be learning about Route Tables, NACL, Security Groups, Nat Gateways and Nat Instances, Ephemeral ports, and more. Finally, we will deploy a dynamic web site with their database in the VPC to verify that all is correctly configured
 
-
+# CloudFormation Script
