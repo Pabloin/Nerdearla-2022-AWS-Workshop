@@ -10,5 +10,5 @@ echo "Hello!" > index.html
 
 git clone https://github.com/Pabloin/Nerdearla-2022-AWS-Workshop.git
 unzip Nerdearla-2022-AWS-Workshop/00-web-site-glaciar/aws-site-glaciar.zip
-cp -r site/* /var/www/html/
+cp -r lab-02/site/* /var/www/html/
 
