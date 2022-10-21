@@ -8,7 +8,7 @@ chkconfig httpd on
 cd /var/www/html
 echo "Hello!" > index.html
 
-git clone https://github.com/uade-arqit/lab-aws.git
-unzip lab-aws/00-web-site-glaciar/lab-02/aws-site-glaciar.zip
+git clone https://github.com/Pabloin/Nerdearla-2022-AWS-Workshop.git
+unzip Nerdearla-2022-AWS-Workshop/00-web-site-glaciar/aws-site-glaciar.zip
 cp -r lab-02/site/* /var/www/html/
 
