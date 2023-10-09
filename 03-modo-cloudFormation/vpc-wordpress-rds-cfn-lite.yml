@@ -281,7 +281,8 @@ Resources:
       DBName: !Ref 'WordpressDbName'
       AllocatedStorage: 5                        #5 GB Minimo
       DBInstanceClass: "db.t2.micro"
-      Engine: MySQL
+      # Engine: MySQL
+      Engine: mysql                              # En AWS Academy dice que el Engine en Lowercase!  
       MasterUsername:     !Ref 'WordpressDbUser'
       MasterUserPassword: !Ref 'WordpressDbPass'
       DBSubnetGroupName: !Ref DBSubnetGroup
